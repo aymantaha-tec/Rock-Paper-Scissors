@@ -31,10 +31,10 @@ window.addEventListener("load", () => {
         computerChoice = "rock";
       }
       if (randm === 2) {
-        computerChoice = "Paper";
+        computerChoice = "paper";
       }
       if(randm === 3){
-        computerChoice = "Scissors";
+        computerChoice = "scissors";
       }
       computerChoiceDisplay.innerHTML = computerChoice;
   };
